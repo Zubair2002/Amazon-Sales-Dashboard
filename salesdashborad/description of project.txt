@@ -1,0 +1,48 @@
+Data Preparation
+
+Imported the dataset from Kaggle into Power BI.
+
+Cleaned the data by fixing errors (removed invalid rows and replaced incorrect symbols).
+
+Formatted columns (currency, text, numbers) for correct aggregations.
+
+Data Modeling
+
+Created new measures using DAX (Data Analysis Expressions):
+
+Total Sales = Sum of discounted_price.
+
+Gross Margin % = Profitability estimate based on actual_price vs. discounted_price.
+
+Sales with Growth = Dynamic “What If” measure to simulate sales growth scenarios.
+
+Dashboard Visuals
+Built multiple interactive visuals, including:
+
+Card visuals for KPIs (Total Sales, Gross Margin %, Product Count).
+
+Column Chart showing Sales by Product Category.
+
+Matrix/Table to compare categories, sales, and users.
+
+“What If” Analysis Slider → lets users test different sales growth percentages and see impact dynamically.
+
+Cohort Analysis Simulation (using User ID & product_category) to show new vs returning buyers by category.
+
+Interactivity & Insights
+
+Applied filters and slicers to allow drill-down by categories.
+
+Limited visuals to Top N categories to handle large unique values.
+
+Enabled storytelling by showing how discounts impact sales and margins.
+
+🔹 Key Insights Delivered
+
+Identified top-performing product categories by sales.
+
+Estimated profit margins to evaluate pricing effectiveness.
+
+Counted unique products sold (to measure product diversity).
+
+Simulated future sales growth scenarios with a slider.
